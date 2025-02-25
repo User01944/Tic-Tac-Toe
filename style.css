@@ -1,0 +1,57 @@
+/* ----------------------------------- GLOBAL STYLES ----------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+header,
+main,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* ----------------------------------- COMPONENTS ----------------------------------- */
+
+#container {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.boxes {
+  width: 125px;
+  height: 125px;
+  border-radius: 1vmin;
+  font-size: 60px;
+  color: #d10101;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 3px rgb(0, 0, 0, 0.5);
+}
+#headText,
+#diplayWinner {
+  margin-top: 15px;
+  text-align: center;
+}
+#resetButton {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 0 3px rgb(0, 0, 0, 0.5);
+}
+.hide {
+  display: none;
+}
